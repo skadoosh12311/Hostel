@@ -1,5 +1,5 @@
 # Hostel_Management
-Web Project
+Web/Dbms Project
 
 1) Add all the folders in /htdocs folder in your Xampp 
 2) Run your Xampp control panel. Start the Apache and mySQL servers.
