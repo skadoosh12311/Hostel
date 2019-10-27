@@ -1,0 +1,29 @@
+    $password = md5($password);
+	pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+	
+	<select id = "gender" >
+			<option value = "0" disabled selected hidden>Choose Gender</option>
+            <option value = "1">Male</option>
+			<option value = "2">Female</option>
+            <option value = "3">Others</option>
+        </select>
+		
+	select s_first, s_middle, s_last, s_course, s_gender, s_address, s_email as First, Middle, s_last, s_course, s_gender, s_address, s_email from student where s_first='Jerin'
+	
+	<a href="update details.html"><input type="button" name="update" value="Update details"></a>
+	<a href="addroom.html"><input type="button" name="add" value="Add room"></a>
+	
+	<a href=\"addroom.php\"><input type=\"button\" name=\"add\" value=\"Add room\"></a>
+	
+	<ul class="radio">
+		<li><input type="radio" name="type" id="male" value="male" /><label for="male">Male dorm: 899/- per person</label></li>
+		<li><input type="radio" name="type" id="female" value="female" /><label for="female">Female dorm: 799/- person</label></li>
+		<li><input type="radio" name="type" id="mixed" value="mixed" /><label for="mixed">Mixed dorm: 699/- per person</label></li>
+		<li><input type="radio" name="type" id="private" value="private" /><label for="private">Deluxe Private room: 1299/- per person</label></li>
+	</ul>
+	
+ALTER TABLE room AUTO_INCREMENT = 1 
+select r.r_id, r.r_type, r.r_finalprice, r.r_checkin, r.r_checkout from room r where r.s_id in (select s.s_first,s.s_last from student s where s.s_id=r.r_id);
+
+
+$sql1="select * from room where r_id='".$_POST["Roomid"]."'";

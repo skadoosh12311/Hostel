@@ -1,0 +1,71 @@
+.div2 {
+		font-family: 'Open Sans Condensed', arial, sans;
+	width: 250px;
+	height:fit-content;
+	padding: 20px;
+	margin-left: 100px;
+	position: absolute;
+	background: #FFFFFF;
+	float: left;
+	margin-top: 138px;
+	
+
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+	
+	.div2 input[type="text"],
+.div2 input[type="date"],
+.div2 input[type="datetime"],
+.div2 input[type="email"],
+.div2 input[type="number"],
+.div2 input[type="search"],
+.div2 input[type="time"],
+.div2 input[type="url"],
+.div2 input[type="password"],
+.div2 textarea,
+.div2 select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	width: 250px;
+	padding: 8px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+
+	
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 55px;
+}
+	
+	
+	.div2 input[type="button"], 
+	.div2 input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	position: relative;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	margin-top:10px;
+	padding: 20px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+	
+.div2 input[type="button"]:hover, 
+.div2 input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
+	
