@@ -1,0 +1,235 @@
+
+.form-style-8{
+	font-family: 'Open Sans Condensed', arial, sans;
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	-webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
+}
+.form-style-8 h2{
+	background: #4D4D4D;
+	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 20px;
+	margin: -30px -30px 30px -30px;
+}
+.form-style-8 input[type="text"],
+.form-style-8 input[type="date"],
+.form-style-8 input[type="datetime"],
+.form-style-8 input[type="email"],
+.form-style-8 input[type="number"],
+.form-style-8 input[type="search"],
+.form-style-8 input[type="time"],
+.form-style-8 input[type="url"],
+.form-style-8 input[type="password"],
+.form-style-8 textarea,
+.form-style-8 select 
+{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 8px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 5px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.form-style-8 textarea{
+	resize:none;
+	overflow: hidden;
+}
+.form-style-8 input[type="button"], 
+.form-style-8 input[type="submit"]{
+	-moz-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	box-shadow: inset 0px 1px 0px 0px #45D6D6;
+	
+	background-color: #2CBBBB;
+	border: 1px solid #27A0A0;
+	display: inline-block;
+	cursor: pointer;
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 14px;
+	margin-top:5px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.form-style-8 input[type="button"]:hover, 
+.form-style-8 input[type="submit"]:hover {
+	background:linear-gradient(to bottom, #34CACA 5%, #30C9C9 100%);
+	background-color:#34CACA;
+}
+
+
+body{
+	background-image: url("../img/wall2.jpg");
+	background-repeat: no-repeat;
+	background-size: fit-content;
+}
+
+* {
+	font-family: courier;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	height: 60px;
+	color: #494949;
+	background-color:#ffe2e2;
+	text-align: center;
+	padding: 10px;
+}
+
+.header1{
+	width: 100%;
+	height: 60px;
+	color: #494949;
+	background-color:#d7f8f7;
+	text-align: center;
+}
+
+h1{
+	margin-top:10px;
+}
+
+.topnav{
+	margin-top: 10px;
+	overflow:hidden;
+	background-color: #494949;
+	border-radius:25px;
+}
+
+.topnav a {
+	float:left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 19px 22px;
+	font-size: 19px;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+.topnav a:hover{
+	background-color:#ddd;
+	color: black;
+}
+
+.topnav a.active{
+	background-color: #ff8c94;
+	color:white;
+}
+
+.container {	
+	width:100%;
+	height:fit-content;
+	overflow:hidden;
+	padding:20px 50px;
+	position: center;
+	background-color:#494949;
+	opacity: 0.9;
+	float: left;
+	text-align:center;
+	margin-top:10px;
+	font-size: 20px;
+	text-align: justify;
+	
+}
+
+.container1{
+	width:50%;
+	height:400px;
+	padding:20px 50px;
+	position: center;
+	background-color:#f3fe7e;
+	opacity: 0.9;
+	float: center;
+	text-align:center;
+	margin-top:10px;
+	margin-left:250px;
+	font-size: 20px;
+	text-align: justify;	
+}
+
+
+.radiogroup  {
+  margin: 0;
+  padding: 0;
+ margin-bottom:1.25em;
+  padding: 1.125em;
+  
+}
+
+.radiogroup legend {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 100%;
+  color: black;
+}
+
+
+ul.radio  {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  list-style: none;
+}
+
+ul.radio li {
+  border: 1px transparent solid;
+}
+
+ul.radio li:hover,
+ul.radio li.focus  {
+  background-color: #fff1e9;
+  border: 1px gray solid;
+  width: 18em;
+}
+
+
+.btn {
+  font-size: 16px;
+  width: 163px;
+  height: 48px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  letter-spacing: 2px;
+  border: none;
+  border-radius: 23px;
+}
+ 
+.back-btn {
+  color: #f62f5e;
+  background: #fff;
+}
+ 
+.next-btn {
+  color: #fff;
+  background: #f62f5e;
+}
+ 
+.btn:focus {
+  outline: none;
+}
+ 
+.btn:hover {
+  transform: scale(1.1);
+}
